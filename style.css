@@ -1,0 +1,33 @@
+#game {
+    height : 500px;
+    width : 500px;
+    margin: auto;
+    
+    /* border: 2px solid black;
+    padding-left: 15px;
+    overflow: hidden; */
+    
+}
+.box{
+    width:160px;
+    height: 160px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.check {
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    top: 300px;
+    left  : 200px;
+    background: rgba(255, 0, 0, 0.253);
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    color:white;
+    font-size: 25px;
+    font-weight: bolder;
+}
