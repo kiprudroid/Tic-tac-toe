@@ -1,6 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
 #game {
-    height : 500px;
-    width : 500px;
+    max-width: 400px;
+    aspect-ratio: 1/1;
     margin: auto;
     
     /* border: 2px solid black;
@@ -9,8 +14,8 @@
     
 }
 .box{
-    width:160px;
-    height: 160px;
+    width:calc(100% / 3.2);
+    height: calc(100% / 3);
     margin: auto;
     font-size: 30px;
 }
@@ -18,16 +23,38 @@
 .check {
     display: none;
     position: absolute;
-    width: 250px;
-    height: 50px;
+    max-width: 250px;
+    height: auto;
     margin: auto;
-    top: 300px;
-    left  : 200px;
+    top:calc(100% / 3);
+    left  : calc(100% / 3);
     background: rgba(255, 0, 0, 0.253);
     text-align: center;
     justify-content: center;
     padding-top: 20px;
     color:white;
     font-size: 25px;
+    font-weight: bolder;
+}
+.btn-wrapper{
+    text-align: center;
+}
+.reset{
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+}
+h1{
+    color: aquamarine;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
     font-weight: bolder;
 }
