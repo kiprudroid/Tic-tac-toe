@@ -96,10 +96,5 @@ function choose(index ,obj){
 obj.setAttribute("disabled" , "true")
 
 checkThat()
-
-console.log(arr.length)
-console.log(draw())
-
-
 }
 
